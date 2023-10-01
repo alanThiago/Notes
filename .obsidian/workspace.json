@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b920a89d9950e132",
+        "id": "583d284ce3a48577",
         "type": "tabs",
         "children": [
           {
-            "id": "67fb1d6be6d7a1eb",
+            "id": "143e42ed3c4887c0",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -81,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resources/Templates/Literature.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resources/Templates/Literature.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resources/Templates/Literature.md"
+                "file": "Fleeting_Notes/Git.md"
               }
             }
           },
@@ -149,8 +147,12 @@
       "templates:Insert template": false
     }
   },
-  "active": "67fb1d6be6d7a1eb",
+  "active": "48b47d865956d879",
   "lastOpenFiles": [
+    "Fleeting_Notes/Git.md",
+    "Fleeting_Notes",
+    "Moc/others",
+    "Moc",
     "init.sh",
     "credenciais.txt",
     "MoC/main/Python.md",
@@ -170,9 +172,6 @@
     "Fleeting Notes/Unsupervised Learning, Recommenders, Reinforcement Learning/Week 1 - Unsupervised Learning.md",
     "Fleeting Notes/Unsupervised Learning, Recommenders, Reinforcement Learning/Week 2 - Recommender Systems.md",
     "Fleeting Notes/Unsupervised Learning, Recommenders, Reinforcement Learning/Icon\r",
-    "Fleeting Notes/Unsupervised Learning, Recommenders, Reinforcement Learning",
-    "Fleeting Notes/Advanced Learning Algorithms/Icon\r",
-    "Fleeting Notes/Advanced Learning Algorithms",
     "Resources/Pasted image 20230909005433.png",
     "Resources/Pasted image 20230909003818.png",
     "Resources/Pasted image 20230909002439.png",
@@ -192,11 +191,9 @@
     "Pasted image 20230903141914.png.md",
     "MoC/main/Machine Learning.md",
     "Literature Notes/Neural Network/Neural Network Model.md",
-    "Literature Notes/Keras",
     "MoC/others/requests.md",
     "MoC/others/numpy.md",
     "Literature Notes/Keras/Keras - Normalization Layer.md",
-    "Literature Notes/Neural Network/Forward Propagation.md",
     "Untitled.canvas"
   ]
 }

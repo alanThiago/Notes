@@ -1,0 +1,101 @@
+# Comandos fundamentais
+- git init
+	- Cria um repositório
+- git status
+	- Mostra todas as alterações no projeto
+		- Untracked files - arquivos não mapeados pelo git
+		- Changes not added to commit - mudanças em arquivos mapeados
+- git add
+	- adiciona arquivo/mudança ao projeto
+	- se não der add, não entra no controle de versão
+- git commit
+	- faz um checkpoint das alterações mapeadas
+	- git commit -m "mensagem de commit"
+- git push
+	- envia as alterações para um servidor remoto
+- git pull
+	- sincroniza o repositório com as alterações do remoto
+- git clone
+	-  git clone \[URL\]
+		- clona um repositório
+- git rm
+	- git rm \[arquivo\]
+		- deleta um arquivo do monitoramento do git
+- git log
+	- mostra todos os commts feitos
+- git mv
+	- git mv \[origem\] \[destino\]
+		- move ou renomeia um arquivo
+- git checkout
+	- git checkout \[arquivo\]
+		- volta para a última atualização commitada do arquivo
+- .gitignore
+	- Inserido na raíz do projeto
+	- É usado para inserir todos os arquivos que não devem entrar no versionamento
+	```
+	arquivo.txt
+	diretorio/*
+	```
+- git reset
+	- git reset --hard \[branch\]
+		- Reseta para o último push
+
+# Branches
+- O que é um branch?
+	- É uma forma que o git separa as versões do projeto
+	- Cada nova feature de um projeto fica em uma branch separada
+	- Após as alterações, os branch são unidos para ter o código fonte final
+- git branch
+	- git branch
+		- visualiza as branchs
+	- git branch \[nome da branch\]
+		- cria uma branch
+	- git branch -d (ou --delete) \[nome da branch\]
+		- deleta a branch
+		- não é comum fazer isso, só se deleta caso o nome da branch esteja errado
+- git checkout
+	- git checkout \[nome_da_branch\]
+		- muda para uma branch existente
+	- git checkout -b \[nome_da_branch\]
+		- muda e cria uma branch
+	- Conceitos
+		- Sempre que mudar de branch é necessário fazer commit das modificações, senão elas vão junto
+		- Sempre que for criar uma branch é necess'ario mudar para a master, dar pull e depois criar
+- git merge
+	- git merge \[nome_da_branch\]
+		- faz o merge da branch atual com a passada por parametro
+	- conteitos
+		- após uma alteração numa branch ser aprovada basta dar merge com a master
+		- se a master estiver muito mais atualizada que a branch atual, primeiro se da merge da branch atual com a master para pegar as atualizações, depois muda pra master e da merge
+- git stash
+	- git stash
+		- salva as modificações que não foram commitadas e reseta a branch
+	- git stash \[identificador\]
+		- cria uma stash com um identificador
+	- git stash list
+		- mostra uma lista de todas as stash da branch
+	- git stash apply \[identificador\]
+		- vai para uma stash
+	- git stash show -p identificador
+					- mostra as modificações da stash
+	- git stash clear
+		- remove todas as stash da branch
+	- git stash drop \[identificador\]
+		- remove uma stash específica pelo seu identificador
+- git tag
+	- git tag
+		- mostra as tags de uma branch
+	- git tag -a \[identificador\] -m "mensagem"
+		- cria uma tag
+	- conteitos
+		- a tag serve como um checkpoint de um branch
+		- é utilizada para demarcar estágios de desenvolvimento de algum recurso
+	- git show \[identificador\]
+		- mostra os detalhes de uma tag
+	- git checkout \[identificador\]
+		- entra uma tag
+	- git push origin \[identificador\]
+		- da push numa tag
+		- nesse caso ele não envia um branch inteiro e sim uma tag
+	- git push --tags
+		- da push em todas as tags
