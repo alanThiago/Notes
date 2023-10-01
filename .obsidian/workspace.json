@@ -1,0 +1,202 @@
+{
+  "main": {
+    "id": "5e18b4ad2c93b00e",
+    "type": "split",
+    "children": [
+      {
+        "id": "b920a89d9950e132",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "67fb1d6be6d7a1eb",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e822b4a0a21e06cb",
+    "type": "split",
+    "children": [
+      {
+        "id": "6e9561c5487a5320",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "48b47d865956d879",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7d7261a7aa8e0159",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5f90412335a24778",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 298.5
+  },
+  "right": {
+    "id": "e3db9d3e4a2e54f0",
+    "type": "split",
+    "children": [
+      {
+        "id": "a893f1c94c6aa114",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4eaa86c818623324",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Resources/Templates/Literature.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "5c5580d083bb79ce",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Resources/Templates/Literature.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "68c0d4966cb689b8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "040128511ac64e32",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Resources/Templates/Literature.md"
+              }
+            }
+          },
+          {
+            "id": "a4e22e385c5ae411",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "templates:Insert template": false
+    }
+  },
+  "active": "67fb1d6be6d7a1eb",
+  "lastOpenFiles": [
+    "init.sh",
+    "credenciais.txt",
+    "MoC/main/Python.md",
+    "Fleeting Notes/Advanced Learning Algorithms/Advance Learning Algorithms - Week 3.md",
+    "Resources/Templates/Literature.md",
+    "Resources/Templates/MoC.md",
+    "Resources/Templates/Permanent Note.md",
+    "Fleeting Notes/Advanced Learning Algorithms/Advance Learning Algorithms - Week 2.md",
+    "Fleeting Notes/Advanced Learning Algorithms/Advance Learning Algorithms - week 4.md",
+    "Fleeting Notes/Hugging Face/1 - Transformers Models/3 - How do Transformers work?.md",
+    "Fleeting Notes/Hugging Face/1 - Transformers Models/2 - Transformers, what can they do?.md",
+    "Fleeting Notes/Hugging Face/1 - Transformers Models/1 - Natural Language Processing.md",
+    "Fleeting Notes/Hugging Face/1 - Transformers Models/Icon\r",
+    "Fleeting Notes/Hugging Face/1 - Transformers Models",
+    "Fleeting Notes/Hugging Face/Icon\r",
+    "Fleeting Notes/Hugging Face",
+    "Fleeting Notes/Unsupervised Learning, Recommenders, Reinforcement Learning/Week 1 - Unsupervised Learning.md",
+    "Fleeting Notes/Unsupervised Learning, Recommenders, Reinforcement Learning/Week 2 - Recommender Systems.md",
+    "Fleeting Notes/Unsupervised Learning, Recommenders, Reinforcement Learning/Icon\r",
+    "Fleeting Notes/Unsupervised Learning, Recommenders, Reinforcement Learning",
+    "Fleeting Notes/Advanced Learning Algorithms/Icon\r",
+    "Fleeting Notes/Advanced Learning Algorithms",
+    "Resources/Pasted image 20230909005433.png",
+    "Resources/Pasted image 20230909003818.png",
+    "Resources/Pasted image 20230909002439.png",
+    "Resources/Pasted image 20230909001359.png",
+    "Resources/Pasted image 20230909000828.png",
+    "Resources/Pasted image 20230908235540.png",
+    "Literature Notes/Keras/Keras - Sequential Model.md",
+    "Literature Notes/Keras/Keras - Dense Layer.md",
+    "Resources/Pasted image 20230908193144.png",
+    "Resources/Pasted image 20230908180137.png",
+    "Resources/Pasted image 20230908172812.png",
+    "Resources/Pasted image 20230908171339.png",
+    "Fleeting Notes/venv.md",
+    "Fleeting Notes/Física - Lista 1.md",
+    "Fleeting Notes/Data Visualization.md",
+    "MoC/others/Keras.md",
+    "Pasted image 20230903141914.png.md",
+    "MoC/main/Machine Learning.md",
+    "Literature Notes/Neural Network/Neural Network Model.md",
+    "Literature Notes/Keras",
+    "MoC/others/requests.md",
+    "MoC/others/numpy.md",
+    "Literature Notes/Keras/Keras - Normalization Layer.md",
+    "Literature Notes/Neural Network/Forward Propagation.md",
+    "Untitled.canvas"
+  ]
+}
