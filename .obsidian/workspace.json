@@ -11,8 +11,12 @@
             "id": "143e42ed3c4887c0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting_Notes/MLOps/Week 1.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Fleeting_Notes/MLOps/Week 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Fleeting_Notes/MLOps/Week 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fleeting_Notes/Git.md"
+                "file": "Fleeting_Notes/MLOps/Week 1.md"
               }
             }
           },
@@ -149,6 +155,9 @@
   },
   "active": "48b47d865956d879",
   "lastOpenFiles": [
+    "Fleeting_Notes/MLOps/Pasted image 20231001191622.png",
+    "Fleeting_Notes/MLOps",
+    "Fleeting_Notes/MLOps/Week 1.md",
     "Fleeting_Notes/Git.md",
     "Fleeting_Notes",
     "Moc/others",
@@ -171,7 +180,6 @@
     "Fleeting Notes/Hugging Face",
     "Fleeting Notes/Unsupervised Learning, Recommenders, Reinforcement Learning/Week 1 - Unsupervised Learning.md",
     "Fleeting Notes/Unsupervised Learning, Recommenders, Reinforcement Learning/Week 2 - Recommender Systems.md",
-    "Fleeting Notes/Unsupervised Learning, Recommenders, Reinforcement Learning/Icon\r",
     "Resources/Pasted image 20230909005433.png",
     "Resources/Pasted image 20230909003818.png",
     "Resources/Pasted image 20230909002439.png",
@@ -193,7 +201,6 @@
     "Literature Notes/Neural Network/Neural Network Model.md",
     "MoC/others/requests.md",
     "MoC/others/numpy.md",
-    "Literature Notes/Keras/Keras - Normalization Layer.md",
     "Untitled.canvas"
   ]
 }
